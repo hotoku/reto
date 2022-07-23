@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "reto"
-version = "0.1.0"
+version = "0.1.1"
 description = "A python package for programming in declarative style."
 authors = ["Yasunori Horikoshi <hotoku@users.noreply.github.com>"]
 license = "MIT"
