@@ -1,55 +1,12 @@
-# Pythonで計算の過程を宣言的に記述する
+# Reto
 
-mediumの記事の実装例です [link](https://medium.com/jdsc-tech-blog/python%E3%81%A7%E8%A8%88%E7%AE%97%E3%81%AE%E9%81%8E%E7%A8%8B%E3%82%92%E5%AE%A3%E8%A8%80%E7%9A%84%E3%81%AB%E8%A8%98%E8%BF%B0%E3%81%99%E3%82%8B-3bb1864aae30)
+A python package for programming in declarative style.
 
+## Copyright
 
-## 動かし方
+Copyright (c) 2022 Yasunori Horikoshi.
+Copyright (c) 2022 Japan Data Science Consortium Co.Ltd.
 
-### 準備
+This package is forked from [jdsc/20220721-blog_example](https://github.com/jdsc/20220721-blog_example) published under MIT license.
 
-Python 3.9.xで動作します。何らかの手段で、3.9.xの実行環境を用意してください。
-その後、以下を実行します。
-
-```shell
-$ pip install poetry
-$ poetry install
-$ poetry shell
-```
-
-### 実行
-
-上で起動した`poetry shell`のシェルで、以下のいずれかのコマンドを実行してください。
-以下の例では、出力結果も合わせて表示されています。
-
-```shell
-$ python -m mysheet forward
-100%|██████████████████████████████████████████████████████████████████| 41/41 [00:00<00:00, 62397.12it/s]
-        2022-05-30      2022-05-31      2022-06-01      2022-06-02      2022-06-03
-期初在庫        100     90      90      100     100
-入荷量  10      20      30      20      10
-出荷量  20      20      20      20      20
-期末在庫        90      90      100     100     90
-```
-
-```shell
-$ python -m mysheet forward2
-100%|██████████████████████████████████████████████████████████████████| 41/41 [00:00<00:00, 58812.06it/s]
-        2022-05-30      2022-05-31      2022-06-01      2022-06-02      2022-06-03
-期初在庫        100     90      90      100     100
-入荷量  10      20      30      20      10
-出荷量  20      20      20      20      20
-期末在庫        90      90      100     100     90
-```
-
-```shell
-$ python -m mysheet rowwise
-100%|██████████████████████████████████████████████████████████████████| 41/41 [00:00<00:00, 61002.65it/s]
-        2022-05-30      2022-05-31      2022-06-01      2022-06-02      2022-06-03
-期初在庫        100     90      90      100     100
-入荷量  10      20      30      20      10
-出荷量  20      20      20      20      20
-期末在庫        90      90      100     100     90
-```
-
-## ライセンス
-MIT
+[https://opensource.org/licenses/mit-license.php](https://opensource.org/licenses/mit-license.php)
