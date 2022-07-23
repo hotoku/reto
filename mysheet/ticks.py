@@ -7,7 +7,7 @@ import re
 
 from mdweek import Week as MDWeek
 
-from mysheet.exceptions import InvalidFormat, UnterminatingSlice
+from reto.exceptions import InvalidFormat, UnterminatingSlice
 
 
 class SliceMixIn:

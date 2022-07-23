@@ -1,6 +1,6 @@
 import pytest
 
-from mysheet import dependency_graph
+from reto import dependency_graph
 
 
 @pytest.fixture

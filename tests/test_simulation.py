@@ -4,9 +4,9 @@ import logging
 import random
 
 
-from mysheet.value_task import Constant, task
-from mysheet.sheet import Sheet
-from mysheet.ticks import Date
+from reto.value_task import Constant, task
+from reto.sheet import Sheet
+from reto.ticks import Date
 
 LOGGER = logging.getLogger(__name__)
 
@@ -76,7 +76,7 @@ def test_simulation(clear_graph):
         today = today + 1
 
     # debug
-    from mysheet import dependency_graph
+    from reto import dependency_graph
     g = dependency_graph.get()
     g.to_dot("/tmp/graph.dot")
     with open("/tmp/list.txt", "w") as f:

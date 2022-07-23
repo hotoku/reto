@@ -1,9 +1,9 @@
 from io import IOBase
 import json
 from typing import Any, Dict, Generic, Sequence, TypeVar, Union
-from mysheet.exceptions import InvalidData
+from reto.exceptions import InvalidData
 
-from mysheet.ticks import Date, Month, Week
+from reto.ticks import Date, Month, Week
 
 
 T = TypeVar("T", Date, Week, Month)

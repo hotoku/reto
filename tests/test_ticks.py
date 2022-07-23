@@ -1,4 +1,4 @@
-from mysheet.ticks import Month, Date, Week
+from reto.ticks import Month, Date, Week
 
 
 def test_month_add():
