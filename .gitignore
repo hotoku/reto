@@ -9,3 +9,4 @@ jupyter.pid
 /db/
 resources/TZF2-001.jsonl
 /resources/TZF2-002.jsonl
+/dist/
