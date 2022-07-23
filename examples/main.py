@@ -1,8 +1,8 @@
 import click
 import sys
 
-from .ticks import Date
-from .sheet import Sheet
+from reto.ticks import Date
+from reto.sheet import Sheet
 
 IN_NUM = [10, 20, 30, 20, 10]
 OUT_NUM = [20, 20, 20, 20, 20]
